@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const api_url = "http://localhost:9090/mac_address";
+const api_url = "https://macaddress.onrender.com/mac_address";
 
 const App2 = () => {
   const [maccAddress, setMaccAddress] = useState(null);
